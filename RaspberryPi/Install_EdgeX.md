@@ -1,4 +1,7 @@
 # Install EdgeX on the Raspberry PI Device
+
+[![README](https://img.shields.io/badge/%E4%B8%AD%E6%96%87-brightgreen)](../RaspberryPi/Install_EdgeX_CN.md)
+
 ## Introduction to Installation Method
 Edgex can be installed in two ways.<br>
 1. Compile from source code  <br>
