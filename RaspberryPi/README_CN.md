@@ -12,7 +12,7 @@
 [在树莓派设备上安装EdgeX](./Install_EdgeX_CN.md)
 
 
-## **Step3**
+## **第三步**
 
 [链接设备](./Device_Connnect_CN.md)
 
