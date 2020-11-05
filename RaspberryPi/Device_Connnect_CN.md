@@ -1,4 +1,4 @@
-#链接设备
+# 链接设备
 
 [![README](https://img.shields.io/badge/English-brightgreen)](./Device_Connect.md)
 

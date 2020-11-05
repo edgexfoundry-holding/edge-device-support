@@ -1,11 +1,11 @@
-#在树莓派上安装Ubuntu MATE
+# 在树莓派上安装Ubuntu MATE
 
 [![README](https://img.shields.io/badge/English-brightgreen)](../RaspberryPi/Install_Operating_System.md)
 
-##设备
+## 设备
 Raspberry Pi 4b
 
-##设置SD卡
+## 设置SD卡
 将sd卡插在读卡器上连接到电脑主机后，使用命令mount在最后一行查看自己的设备号,找寻sd卡的挂载目录，如图可以看到此sd卡的挂载目录为/dev/sdb1(若有sdb1,sdb2等，则说明有多个分区)。
 ```
 $ mount
@@ -37,7 +37,7 @@ $ sudo fdisk /dev/sdb
 ```
 $ mkfs.msdos /dev/sdb1 （若选择了第一分区号，则是mkfs.msdos /dev/sdb1）
 ```
-##下载Ubuntu Mate镜像
+## 下载Ubuntu Mate镜像
 
 Ubuntu MATE 是仅有的原生支持树莓派且包含一个完整的桌面环境的发行版,选择安装Ubuntu Mate是最简单和快速的。<br>
 登录Ubuntu Mate官网https://ubuntu-mate.org/download/<br>
@@ -54,7 +54,7 @@ $ xz -d ubuntu-mate***.img.xz  （ubuntu-mate***.img.xz是你下载的镜像的�
 
  ![image](./image/xz.png)
  
- ##将镜像烧录至格式化好的SD卡中
+## 将镜像烧录至格式化好的SD卡中
 
 需要用Balena Etcher工具烧写SD卡，制作树莓派的文件系统。<br>
 登录https://www.balena.io/etcher/后下载安装Linux版本Balena Etcher的安装包。<br>
@@ -75,7 +75,7 @@ $unzip zipped_file.zip (zipped_file是安装包的名字)
    
  ![image](./image/burn03.png)
  
- ##连接外部设备
+## 连接外部设备
 
 你需要一些外设才能使用树莓派，例如鼠标、键盘、HDMI 线等等。<br>
 插入一个鼠标和一个键盘。<br>
@@ -86,7 +86,7 @@ $unzip zipped_file.zip (zipped_file是安装包的名字)
 
  ![image](./image/pi02.png)
  
- ## 配置系统
+## 配置系统
  
  ![image](./image/language.png)
 
@@ -96,7 +96,7 @@ $unzip zipped_file.zip (zipped_file是安装包的名字)
 
  ![image](./image/menu.png)
   
- ##连接设备
+## 连接设备
 
    1. 显示器，键盘，鼠标
    2. ssh
