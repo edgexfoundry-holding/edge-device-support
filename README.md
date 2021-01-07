@@ -20,5 +20,5 @@
 # Device support list <br>
  [Raspberry Pi](./RaspberryPi/README.md)<br>
  [Qualcomm Robotics RB3 Platform(SDA845)](./RB3/README.md)<br>
- [Inetl core i5(7th) EdgeStation)](./EdgeStation/README.md)<br>
+ [Intel core i5(7th) EdgeStation)](./EdgeStation/README.md)<br>
 
